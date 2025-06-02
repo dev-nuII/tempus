@@ -1,0 +1,35 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build output
+bin/
+build/
+
+# Vendor directory (if using vendoring)
+vendor/
+
+# Go modules files (you usually *do* want to keep go.mod and go.sum)
+# But if you want to ignore the downloaded modules cache:
+# /pkg/mod/
+
+# IDE/editor config files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Output files from your program, if any
+output/
+
