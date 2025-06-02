@@ -12,7 +12,7 @@ const (
 
 func ShowHelp() {
 	helpText := `
-` + Bold + Cyan + `Tempus - Ultra Fast Discord Token Checker & Generator` + Reset + `
+` + Bold + Cyan + `Tempus - Fast as Fuck Discord Token Checker & Generator` + Reset + `
 
 ` + Cyan + `Description:` + Reset + `
   Tempus is a powerful and efficient Discord token tool designed for both token validation and mass token generation.
@@ -69,4 +69,3 @@ func ShowHelp() {
 `
 	fmt.Print(helpText)
 }
-
