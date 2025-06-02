@@ -25,7 +25,9 @@ The token checker performs concurrent HTTP requests with controlled concurrency 
 ```bash
 git clone [https://github.com/dev-nuII/tempus.git](https://github.com/dev-nuII/tempus.git)
 cd tempus
-go build -o tempus main.go
+go build -o tempus.exe src/main.go
+OR
+go build -o tempus src/main.go 
 ```
 
 This creates an executable called `tempus` (or `tempus.exe` on Windows) in the current directory.
